@@ -4,7 +4,9 @@
 
 # Xcode
 #
-build/
+ios/assets/main.jsbundle.map
+ios/assets/main.jsbundle
+ios/build/
 *.pbxuser
 !default.pbxuser
 *.mode1v3
@@ -21,9 +23,13 @@ DerivedData
 *.ipa
 *.xcuserstate
 
-# Android/IntelliJ
+# Android Studio/IntelliJ
 #
-build/
+android/assets/index.android.bundle
+android/assets/index.android.bundle.map
+android/assets/index.android.bundle.meta
+android/build/
+android/**/build/
 .idea
 .gradle
 local.properties
